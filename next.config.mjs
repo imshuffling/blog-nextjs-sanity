@@ -8,9 +8,11 @@ const config = {
   },
 
   images: {
-    remotePatterns: [
-      { hostname: 'cdn.sanity.io' },
-      { hostname: 'source.unsplash.com' },
+    domains: [
+      'images.unsplash.com',
+      'cdn.sanity.io',
+      'images.ctfassets.net',
+      'links.papareact.com',
     ],
   },
   typescript: {

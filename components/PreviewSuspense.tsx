@@ -1,3 +1,6 @@
-'use client'
+//https://github.com/sanity-io/next-sanity#next-sanitypreview-live-real-time-preview
 
-export { PreviewSuspense } from 'next-sanity/preview'
+'use client';
+
+// Once rollup supports 'use client' module directives then 'next-sanity' will include them and this re-export will no longer be necessary
+export { PreviewSuspense as default } from 'next-sanity/preview';
